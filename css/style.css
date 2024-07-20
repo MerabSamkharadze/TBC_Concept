@@ -108,6 +108,7 @@ footer {
   align-items: center;
 }
 .footer_top {
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -141,6 +142,36 @@ footer {
   cursor: pointer;
 }
 .footer_bottom_right div:hover {
+  color: blue;
+}
+
+.footer_main_inner {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_main_inner h2 {
+  font-weight: bolder;
+  color: black;
+  padding-bottom: 20px;
+}
+.footer_main_inner p {
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: 100;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.flex:hover {
+  text-decoration: underline;
+}
+.footer_main_inner p:hover {
   color: blue;
 }
 
