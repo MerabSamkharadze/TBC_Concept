@@ -146,6 +146,7 @@ footer {
 }
 
 .footer_main_inner {
+  padding-right: 60px;
   margin-top: 30px;
   margin-bottom: 30px;
   display: flex;
@@ -170,6 +171,31 @@ footer {
 }
 .flex:hover {
   text-decoration: underline;
+}
+.social_networks {
+  margin-top: 30px;
+  font-weight: bolder;
+  color: black;
+}
+.footer_social_list {
+  margin-top: 20px;
+  display: flex;
+}
+.social_icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #f9fafa;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+  display: flex;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.social_icon:hover {
+  color: #182cc0;
+  background-color: #eee;
 }
 .footer_main_inner p:hover {
   color: blue;
