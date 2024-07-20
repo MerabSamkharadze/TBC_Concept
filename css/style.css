@@ -32,6 +32,7 @@ header {
 }
 .header_logo img {
   width: 165px;
+  cursor: pointer;
 }
 .header_menu {
   display: flex;
@@ -83,8 +84,10 @@ footer {
   width: 100%;
   background-color: #fff;
   border-top: 1px solid #eef1f1;
+
   position: fixed;
   bottom: 0;
+  z-index: 100;
 }
 .footer_container {
   width: 100%;
@@ -105,12 +108,13 @@ footer {
 
 .footer_bottom {
   width: 100%;
-  border-top: 1px solid #eef1f1;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 30px 0;
+  justify-content: space-between;
+  border-top: 1px solid #eef1f1;
 }
+
 .footer_bottom img {
   cursor: pointer;
   width: 200px;
@@ -130,12 +134,29 @@ footer {
 }
 
 /* triger */
+.button_menu {
+  position: fixed;
+  z-index: 999;
+  margin-top: 85vh;
+  margin-left: 93%;
+}
 
 .button_menu_trigger {
-  background-color: rebeccapurple;
-  width: 50px;
-  height: 50px;
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
+  width: 56px;
+  height: 56px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #424a4d;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  transition: background-color 0.25s ease-in-out;
+  display: flex;
+}
+.button_menu_trigger:hover {
+  background-color: rgba(66, 74, 77, 0.8);
+}
+.triger_icon {
+  margin-top: 8px;
 }
