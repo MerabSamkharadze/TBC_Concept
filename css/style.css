@@ -112,7 +112,7 @@ header {
 .dropdown:hover {
   background-color: rgba(201, 200, 200, 0.81);
 }
-lang_togle:hover {
+.lang_togle:hover {
   background-color: rgba(201, 200, 200, 0.81);
 }
 .dropdown:hover .dropdown-content {
@@ -246,7 +246,7 @@ footer {
 .button_menu {
   position: fixed;
   z-index: 999;
-  margin-top: 85vh;
+  margin-top: 76vh;
   margin-left: 93%;
 }
 
