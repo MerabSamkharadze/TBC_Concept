@@ -419,3 +419,50 @@ footer {
   height: 100%;
   object-fit: cover;
 }
+/* section_statistics */
+.section_numbers {
+  -webkit-text-size-adjust: 100%;
+  --rem: 16;
+  --swiper-theme-color: #007aff;
+  --swiper-navigation-size: 44px;
+  color: #555f62;
+  font-family: TBCX, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.padding-global {
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.numbers_item {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px 30px;
+  padding-right: 70px;
+  color: black;
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+.numbers_number {
+  font-size: 2em;
+  font-weight: bold;
+}
