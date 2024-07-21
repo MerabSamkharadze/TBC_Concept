@@ -333,3 +333,89 @@ footer {
   background-image: none;
   background-color: #3295ce;
 }
+
+.big_text_banner h1 {
+  font-size: 35px;
+  color: black;
+  font-weight: 400;
+}
+.big_text_banner {
+  margin-top: 50px;
+}
+
+/* select_colection */
+.select_colection {
+  margin-top: 50px;
+}
+.select_colection h2 {
+  font-weight: 600;
+  font-size: 25px;
+  color: black;
+  margin-bottom: 40px;
+}
+
+/* grid */
+
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.grid-2-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.grid-card {
+  background-color: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.grid-card:hover {
+  transform: scale(1.05);
+}
+
+.grid-card_content {
+  padding: 20px;
+}
+
+.text-color-white {
+  color: white;
+}
+
+.arrow-link {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.button_icon {
+  margin-right: 5px;
+}
+
+.button_text {
+  color: white;
+  text-decoration: none;
+}
+
+.grid-card_img-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.grid-card_img-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
