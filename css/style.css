@@ -296,7 +296,7 @@ footer {
   justify-content: center;
   flex: 1;
   position: absolute;
-  margin-top: 15%;
+  margin-top: 100px;
   margin-left: 70px;
   width: 40%;
 }
@@ -330,7 +330,7 @@ footer {
   border: none;
 }
 .subscribe:hover {
-  background-image: none;
+  background-image: linear-gradient(15deg, #00168200, #3241e500);
   background-color: #3295ce;
 }
 
