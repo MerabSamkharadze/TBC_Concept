@@ -518,7 +518,7 @@ footer {
 }
 .swiper-wrapper {
   display: flex;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.7s ease-in-out;
 }
 .swiper-slide {
   min-width: 350px;
@@ -541,7 +541,7 @@ footer {
   right: 10px;
 }
 .award-card {
-  padding: 20px;
+  padding: 40px 20px;
   background: #fff;
   border-radius: 5px;
 }
@@ -556,4 +556,9 @@ footer {
   margin-bottom: 10px;
   color: black;
   font-weight: 700;
+}
+.prizes {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
 }
